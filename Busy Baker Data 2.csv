@@ -1,7 +1,7 @@
 Busy Baker Data Sheet,,,,,,,,
 ,,,,,,,,
 Default Values,,,,,,,,
-Starting Tiles,4,tiles at the start of a level,,,,,,
+Starting Tiles,5,tiles at the start of a level,,,,,,
 Tiles per Turn,1.5,tiles added each time the player makes a move; this should take fractional numbers and add the extra tile when needed. So 1.5 would mean alternating between 1 and 2 tiles,,,,,,
 Tiles per Customer,4,tiles added when a new customer is added,,,,,,
 Starting Coins,100,coins when the game starts,,,,,,
