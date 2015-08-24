@@ -20,14 +20,14 @@ Coins per Item,1,The number of coins given per item; So 2 cookies pays 2x. This 
 Level Structure,,,,,,,,
 Day,1,,,,,,,
 Cost to Start,100,number of coins it costs to start this day,,,,,,
-Day Length,25,number of turns before it's closing time,,,,,,
+Day Length,30,number of turns before it's closing time,,,,,,
 Day Reward,25,number of coins earned for a successful day,,,,,,
 "some values should be able to be added to a level to overide the default, like: Starting Tiles, Tiles per Turn, Tiles per Customer, Coins per Item",,,,,,,,
 ,,"Valid customer types: Biker, Granny, Hipster, Teenager",,,,,,(only if it deviates)
 ,,,,"Valid item types: Bread, Cupcake, Donut, Cookie, Cake",,,,
 ,Turn,Customer Type,Starting Happy,Item 1 Type,Item 1 Amount,Item 2 Type,Item 2 Amount,Tip per Happy
 ,1,Granny,10,Cake,2,,,
-,2,Teenager,10,Cookie,2,,,
+,3,Teenager,10,Cookie,2,,,
 ,4,Granny,10,Cupcake,3,,,
 ,7,Biker,10,Cake,5,,,
 ,9,Teenager,10,Cookie,3,,,
@@ -44,8 +44,38 @@ Day Reward,200,number of coins earned for a successful day,,,,,,
 ,,"Valid customer types: Biker, Granny, Hipster, Teenager",,,,,,(only if it deviates)
 ,,,,"Valid item types: Bread, Cupcake, Donut, Cookie, Cake",,,,
 ,Turn,Customer Type,Starting Happy,Item 1 Type,Item 1 Amount,Item 2 Type,Item 2 Amount,Tip per Happy
-,1,Granny,10,Bread,3,Bread,2,2
+,1,Granny,10,Bread,3,,,
 ,1,Hipster,10,Cupcake,2,,,
 ,3,Teenager,10,Donut,4,,,
-,10,Biker,8,Cookie,3,,,2
-,15,Granny,5,Cake,3,Donut,2,
+,10,Biker,8,Cookie,3,,,
+,15,Granny,5,Cake,3,,,
+,,,,,,,,
+,,,,,,,,
+Day ,3,,,,,,,
+Cost to Start,200,number of coins it costs to start this day,,,,,,
+Day Length,30,number of turns before it's closing time,,,,,,
+Day Reward,200,number of coins earned for a successful day,,,,,,
+"some values should be able to be added to a level to overide the default, like: Starting Tiles, Tiles per Turn, Tiles per Customer, Coins per Item",,,,,,,,
+,,"Valid customer types: Biker, Granny, Hipster, Teenager",,,,,,(only if it deviates)
+,,,,"Valid item types: Bread, Cupcake, Donut, Cookie, Cake",,,,
+,Turn,Customer Type,Starting Happy,Item 1 Type,Item 1 Amount,Item 2 Type,Item 2 Amount,Tip per Happy
+,1,Granny,10,Bread,3,,,
+,1,Hipster,10,Cupcake,2,,,
+,3,Teenager,10,Donut,4,,,
+,10,Biker,8,Cookie,3,,,
+,15,Granny,5,Cake,3,,,
+,,,,,,,,
+,,,,,,,,
+Day ,4,,,,,,,
+Cost to Start,200,number of coins it costs to start this day,,,,,,
+Day Length,30,number of turns before it's closing time,,,,,,
+Day Reward,200,number of coins earned for a successful day,,,,,,
+"some values should be able to be added to a level to overide the default, like: Starting Tiles, Tiles per Turn, Tiles per Customer, Coins per Item",,,,,,,,
+,,"Valid customer types: Biker, Granny, Hipster, Teenager",,,,,,(only if it deviates)
+,,,,"Valid item types: Bread, Cupcake, Donut, Cookie, Cake",,,,
+,Turn,Customer Type,Starting Happy,Item 1 Type,Item 1 Amount,Item 2 Type,Item 2 Amount,Tip per Happy
+,1,Granny,10,Bread,3,,,
+,1,Hipster,10,Cupcake,2,,,
+,3,Teenager,10,Donut,4,,,
+,10,Biker,8,Cookie,3,,,
+,15,Granny,5,Cake,3,,,
