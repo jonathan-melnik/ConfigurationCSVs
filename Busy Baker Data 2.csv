@@ -84,7 +84,7 @@ Day Reward,120,number of coins earned for a successful day,,,,,,
 ,,,,,,,,
 Day,4,,,,,,,
 Cost to Start,150,number of coins it costs to start this day,,,,,,
-Day Length,45,number of turns before it's closing time,,,,,,
+Day Length,55,number of turns before it's closing time,,,,,,
 Day Reward,200,number of coins earned for a successful day,,,,,,
 "some values should be able to be added to a level to overide the default, like: Starting Tiles, Tiles per Turn, Tiles per Customer, Coins per Item",,,,,,,,
 ,,"Valid customer types: Biker, Granny, Hipster, Teenager",,,,,,(only if it deviates)
